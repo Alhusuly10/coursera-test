@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my first website on pc</title>
+    <style>
+       body {
+        font-style: italic;
+        background-color: rgb(76, 5, 148, 0.5);
+        font-weight: bold;
+        background-image: url(flier.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-style: inherit;
+      }
+      div {
+        background-color: rgba(89, 128, 17, 0.5);
+        color: cornsilk;
+        padding: 100px;
+        margin: 10px;
+      }
+      h1 {
+        color: rgb(221, 34, 81);
+      }
+      label {
+        background-color: burlywood;
+        border-radius: 5px;
+      }
+      #course {
+        color: rgb(22, 10, 136);
+        font-weight: bolder;
+        font-style: bolder ;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <div>
+  <body>
+    <h1>Input your details</h1>
+    <form>
+      <label for="sname">first name</label>
+      <input
+        type="text"
+        placeholder="first name"
+        name="surname"
+        id="sname"
+      /><br /><br />
+      <label for="lname">last name</label>
+      <input type="text" placeholder="last name" id="lname" /><br /><br />
+      <label for="psw">password</label>
+      <input
+        type="password"
+        placeholder="password"
+        name="psw"
+        id="psw"
+      /><br /><br />
+      <label for="cpsw">confirm password</label>
+      <input
+        type="password"
+        placeholder="confirm password"
+        id="cpsw"
+      /><br /><br />
+      <label for="">gender</label>
+      <input type="radio" name="gender" />male
+      <input type="radio" name="gender" />female <br /><br />
+      <label for="tel">Phone number</label>
+      <input type="tel" id="tel" /><br /><br />
+      <label for="emails">E-mails</label>
+      <input type="email" placeholder="Email" id="emails" /><br /><br />
+      <p id="course">choose the course(s) you want to apply for:</p>
+      <input type="checkbox" name="course" id="html" />
+      <label for="html">HTML</label><br /><br />
+      <input type="checkbox" name="corse" id="css" />
+      <label for="css">CSS</label><br /><br />
+      <input type="checkbox" name="js" id="js" />
+      <label for="js">Javascript</label><br /><br />
+      <button type="submit" >Regiter  <a href="recieved.html"></a></button>
+    </form>
+  </body>
+</div>
+</html>
